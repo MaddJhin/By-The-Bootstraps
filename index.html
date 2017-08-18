@@ -8,11 +8,11 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="bg-secondary">
         <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-            <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <nav class="navbar navbar-light bg-light mb-5">
+             <a class="navbar-brand" href="#">
+                <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Your Name
             </a>
             <ul class="nav justify-content-end">
@@ -28,13 +28,12 @@
             </ul>
         </nav>
 
-        <div class="container bg-primary">
+        <div class="container ">
             <!-- Content here -->
-
             <div class="row">
-                <div class="col-sm-8">
-                    <img src="assets/profile-pic-zoom-out.png" alt="Portrait" class="img-thumbnail float-left">
-                    <p>You know, it really doesn’t matter what you write as long as you’ve got a young,
+                <div class="col-sm-8 bg-light p-3">
+                    <img src="assets/profile-pic-zoom-out.png" alt="Portrait" class="img float-left mr-3">
+                    <p class="text-justify">You know, it really doesn’t matter what you write as long as you’ve got a young,
                         and beautiful, piece of text. Be careful, or I will spill the beans on your
                         placeholder text. I will write some great placeholder text – and nobody writes
                         better placeholder text than me, believe me – and I’ll write it very
@@ -43,22 +42,35 @@
                         many different things placeholder text has to be able to do, and I don't believe
                         Lorem Ipsum has the stamina.
                     </p>
+                    <p>Some people have an ability to write placeholder text... It's an art you're
+                        basically born with. You either have it or you don't. All of the words in Lorem
+                        Ipsum have flirted with me - consciously or unconsciously. That's to be
+                        expected. You could see there was text coming out of her eyes, text coming out
+                        of her wherever.
+                    </p>
+                    <p>
+                        The other thing with Lorem Ipsum is that you have to take out its family. Lorem
+                        Ispum is a choke artist. It chokes! Lorem Ipsum is unattractive, both inside and
+                        out. I fully understand why it’s former users left it for something else. They
+                        made a good decision.
+                    </p>
                 </div>
                 <div class="col-sm-4">
                     <div class="card border-light mb-3 float-right clearfix" style="max-width: 20rem;">
                         <div class="card-header">
-                            Header
+                            <h4 class="card-title">Light card title</h4>                      
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Light card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <img src="assets/github-128.png" alt="GitHub Icon">
+                            <img src="assets/linkedin-128.png" alt="LinkedIn Icon">
+                            <img src="assets/stackoverflow-128.png" alt="Stackoverflow Icon">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <footer class="container-fluid fixed-bottom">
+        <footer class="container-fluid fixed-bottom bg-light p-3">
             <p class="text-center"> Francisco </p>
         </footer>
 
